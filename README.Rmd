@@ -29,19 +29,19 @@ head(ames)
 - Parcel id: 
 - address: 
 - style:
-- occupency:
+- occupancy:
 - sale date:
 - sale price:
-- muti-sale: 
+- multi-sale: 
 - year built: 
-- acers: 
-- total living area:
-- bedrooms: 
-- finished basement area:
-- lot area: 
-- A/C: 
-- fireplace:
-- neighborhood: 
+- acres: Numerical, how many acres the property has, 0-2 acres
+- total living area:Numerical,the square footage of the inside of the home, 600-5000 sq ft 
+- bedrooms: numerical, how many bedrooms are in the home, 0-6 bedrooms
+- finished basement area:Numerical, the square footage if the home has a finished basement, 600-200 sq ft
+- lot area: Numerical, size of the property in square footage, 2000-10000 sq ft
+- A/C: Character, if the home has AC, yes or no
+- fireplace: Character, if the home has a fireplace, yes or no
+- neighborhood: Character, what neighborhood the home is in, different neighborhoods in Ames
 
 ## Question 2 
 
