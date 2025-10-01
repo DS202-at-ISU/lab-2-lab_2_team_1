@@ -46,6 +46,7 @@ tail(ames)
 
 ## Question 2 
 
+We found the variable of interest to be Sale Price
 
 ## Question 3 
 
