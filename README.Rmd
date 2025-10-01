@@ -23,18 +23,19 @@ Submit a link to your repository on Canvas (only one submission per team) to sig
 ```{r}
 library(classdata)
 head(ames)
+tail(ames)
 
 ```
 
-- Parcel id: 
-- address: 
-- style:
-- occupency:
-- sale date:
-- sale price:
-- muti-sale: 
-- year built: 
-- acers: 
+- Parcel id: character, Unique ID for each house, N/A
+- address: character, address of each house, N/A
+- style: character, what style type each house is, 1 story - 3 story
+- occupancy: character, how the house is occupied, N/A
+- sale date: numerical, date the house was sold, 1-1-2020 - 12-31-2022
+- sale price: numerical, the price the house was sold at, 0-700,000
+- muti-sale: character, wheather or not there was mutiple sales, N/A
+- year built: numerical, year the house was built, 1920-2022
+- acres: 
 - total living area:
 - bedrooms: 
 - finished basement area:
