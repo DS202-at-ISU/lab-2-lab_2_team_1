@@ -24,6 +24,7 @@ Submit a link to your repository on Canvas (only one submission per team) to sig
 library(classdata)
 head(ames)
 tail(ames)
+library(ggplot2)
 
 ```
 
@@ -35,19 +36,18 @@ tail(ames)
 - sale price: numerical, the price the house was sold at, 0-700,000
 - muti-sale: character, wheather or not there was mutiple sales, N/A
 - year built: numerical, year the house was built, 1920-2022
-- acres: 
-- total living area:
-- bedrooms: 
-- finished basement area:
-- lot area: 
-- A/C: 
-- fireplace:
-- neighborhood: 
+- acres: Numerical, how many acres the property has, 0-2 acres
+- total living area:Numerical,the square footage of the inside of the home, 600-5000 sq ft 
+- bedrooms: numerical, how many bedrooms are in the home, 0-6 bedrooms
+- finished basement area:Numerical, the square footage if the home has a finished basement, 600-200 sq ft
+- lot area: Numerical, size of the property in square footage, 2000-10000 sq ft
+- A/C: Character, if the home has AC, yes or no
+- fireplace: Character, if the home has a fireplace, yes or no
+- neighborhood: Character, what neighborhood the home is in, different neighborhoods in Ames
 
 ## Question 2 
 
 
 ## Question 3 
-
 
 ## Question 4 
