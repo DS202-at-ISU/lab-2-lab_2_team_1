@@ -128,6 +128,22 @@ ggplot(ames, aes(x=Bedrooms))+
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
+``` r
+# Minimum Sale Price
+min(ames$`Sale Price`, na.rm = TRUE)
+```
+
+    ## [1] 0
+
+``` r
+# Maximum Sale Price
+max(ames$`Sale Price`, na.rm = TRUE)
+```
+
+    ## [1] 20500000
+
+#### The minimum for the value of Sale Price is 0 and the maximum is 20,500,000. The general pattern between the Sale Price and the number of bedrooms is as the number of bedrooms increase so does the Sale Price. There is an odd part of the data that starts at five bedrooms or more, it does not seem to follow this pattern as the Sale Price seems to go down.
+
 ## Question 4
 
 ### Allison’s work:
