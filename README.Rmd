@@ -47,7 +47,28 @@ library(ggplot2)
 
 ## Question 2 
 
+We found the variable of interest to be Sale Price
 
 ## Question 3 
 
+
+
+```{r}
+library(ggplot2)
+ggplot(ames, aes(x=Bedrooms))+
+  geom_bar(aes(weight = `Sale Price`))+ 
+  ggtitle("Sale Price Compared to Bedrooms")
+```
+
+
+
 ## Question 4 
+
+### Allison's work: 
+
+### Kelly's work:
+
+### Kenzie's work: 
+
+### Marcus's work: 
+
