@@ -150,6 +150,38 @@ max(ames$`Sale Price`, na.rm = TRUE)
 
 ### Kelly’s work:
 
+``` r
+ggplot(ames, aes(x=`LotArea(sf)`, y=`Sale Price`))+
+  geom_point(alpha=0.6, color="purple")+ labs( title = "Relationship between Sale Price and Lot Area", x="Lot Area", y="Sale Price") +
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
+  coord_cartesian(xlim = c(0, 45000), ylim = c(0, 1500000)) +
+  theme_minimal()
+```
+
+    ## `geom_smooth()` using formula = 'y ~ x'
+
+    ## Warning: Removed 89 rows containing non-finite values (`stat_smooth()`).
+
+    ## Warning: Removed 89 rows containing missing values (`geom_point()`).
+
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+``` r
+# Minimum LotArea(sf)
+min(ames$`LotArea(sf)`, na.rm = TRUE)
+```
+
+    ## [1] 0
+
+``` r
+# Maximum LotArea(sf)
+max(ames$`LotArea(sf)`, na.rm = TRUE)
+```
+
+    ## [1] 523228
+
+#### The range of the chosen variable, lot area, is 0-523228. The scatterplot shows that as Lot Area increases, Sales Price decreases. This seems to be counter intuitive but there are a lot of factors that impact Sales Price as location. Large lots in rural area are less than large areas in urban areas. This kind of follows the pattern in the previous graph after 5 bedrooms.
+
 ### Kenzie’s work:
 
 ### Marcus’s work:
