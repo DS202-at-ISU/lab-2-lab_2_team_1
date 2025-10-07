@@ -62,6 +62,14 @@ ggplot(ames, aes(x=Bedrooms))+
 
 ### Allison's work: 
 
+```{r}
+ggplot(data = ames, aes(x = `LotArea(sf)`, y = `Sale Price`)) +
+  geom_point()
+
+```
+
+The values for the Lot area don't seem to change the sale price by too much, but it does seem that as lot area square footage increases, so does sale price. There are a few oddities with very high sale prices and one with a very high lot area. There are also some rows missing values. 
+
 ### Kelly's work:
 
 ### Kenzie's work: 
